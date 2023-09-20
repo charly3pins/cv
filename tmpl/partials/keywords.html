@@ -1,0 +1,12 @@
+<style>
+  #keywords {
+    padding-left: 2rem;
+  }
+</style>
+<h2>Keywords</h2>
+<div id=keywords>
+  {{- range $n,$v := .Keywords -}}
+  {{ if $n }} • {{ end -}}
+  {{.}}
+  {{- end -}}
+</div>

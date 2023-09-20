@@ -1,0 +1,202 @@
+Name:     Carles Fusté
+Role:     Software Engineer
+Email:    hello@charly3pins.dev
+Web:      https://charly3pins.dev/
+Location: Barcelona, Spain
+
+Mission:
+  Enjoying being in the ever-evolving world of technology, displaying boundless enthusiasm 
+  for exploring new innovations and emerging trends. 
+  Continuously learning, adapting, and coding, becoming a valuable asset on any team.
+
+Skills:
+- Software Engineering
+- Software Design and Development
+- API Design and Development
+- Distributed Systems
+- (Micro)services Patterns
+- Domain-Driven Design
+- Event-Driven Patterns
+- Test Driven Development Practices
+- DevOps philosophy
+- Continuous Integration and Continous Delivery (CI/CD)
+- Tech Leadership and Team Mentoring
+- Writing and Publication
+
+Experience:
+- Role:     VP of Engineering
+  Entity:   Bankable
+  Started:  June 2023
+  Location: Remote, Spain
+  Details:
+
+- Role:     Engineering Director
+  Entity:   AREX Markets
+  Started:  April 2022
+  Location: Remote, Spain
+  Details:
+  - (Acquired by Bankable)
+  - Responsible for the Engineering Strategy
+  - Budget planning and management for the Engineering Organization
+  - Lead the Solution Architecture
+  - Set frameworks and playbooks for the organization to standardize their engineering practices
+  - Responsible for overseeing the design, development, and maintenance of the cloud platform that supports our products
+  - Coaching and mentoring technical leaders and engineers of the organization, helping them to set goals for career growth based on OKRs and CFR
+  - "Designed and implemented an Engineering Ladder with 2 tracks: Individual Contributor and Engineering Manager"
+  - Designed and Implemented the Hiring Process for Engineering
+  - Partner with Product to align roadmaps, establish OKRs and resourcing recommendations
+  - Accountable for the delivery of features and quality of the implemented solutions
+
+- Role:     Software Engineer (Tech Lead)
+  Entity:   AREX Markets
+  Started:  March 2021
+  Stopped:  April 2022
+  Location: Remote, Spain
+  Details:
+  - Tech Lead for the Financial Services squad
+  - In charge of the payments, money flow and the ledger of the company
+  - Responsible for the Application Architecture strategy and execution
+  - Lead by example
+  - Collaborate with the team to identify and fix technical problems
+  - Analyze users' needs with the Product Manager and find solutions to serve them
+  - Check that the software accomplishes the standards of the company
+  - Identify areas of improvement for the product
+  - Hire and train new members
+  - Delegate work and assignments to team members
+
+- Role:     Software Engineer
+  Entity:   AREX Markets
+  Started:  November 2018
+  Stopped:  March 2021
+  Location: Barcelona, Spain
+  Details:
+  - Research and implementation of a common architecture in the existent microservices in Go
+  - Development of the new microservices in Go
+  - Uniform the communication between microservices using gRPC
+  - Asynchronous messaging with PubSub
+  - Database administration in PostgreSQL
+  - CI/CD with Jenkins
+  - Docker and Kubernetes for development and production
+  - Introduction of new workflows and methodologies for the development team
+  - Google Cloud Platform (GCP) and Amazon Web Services (AWS)
+
+- Role:     Software Engineer (Tech Lead)
+  Entity:   iContainers
+  Started:  January 2018
+  Stopped:  November 2018
+  Location: Barcelona, Spain
+  Details:
+  - Event-driven architecture (EDA) and microservices
+  - Usage of Amazon Web Services (Lambda [Go & NodeJS], Step Functions, SQS, S3 and Cloudwatch)
+  - Develop an API in Go with MongoDB and another one with MySQL to control the data of the system
+  - Definition and development of a custom framework with MongoDB to define-build-deploy Step Functions for AWS
+  - Definition and development of web applications using Go templates (admin panels, dynamic forms)
+  - Migrate a few microservices working with SQS in PHP (Laravel) to Go
+  - Security with Auth0
+  - "Usage of different tools: Gitlab, Jenkins, Docker, ELK, Grafana"
+  - Sprint planning with CTO, lead the stand-ups and retrospectives with all team
+  - Ensure the codebase quality by doing Code Reviews
+
+- Role:     Software Engineer
+  Entity:   iContainers
+  Started:  October 2016
+  Stopped:  January 2018
+  Location: Barcelona, Spain
+  Details:
+  - Improvement of the REST API build in Java, Spring Security and Hibernate
+  - Maintaining internal monolithic applications in different languages such as ASP .Net, JSP and JSF
+  - Development of new CMS using jBake and later switched to Hugo
+  - Database administration in PostgreSQL
+  - Version control with SVN
+  - Definition and development from scratch of a new highly scalable and flexible back-office system based on an event-driven architecture (EDA) and microservices
+  - Development of a few panels with Angularjs and Go templates both with OAuth 2.0
+  - Database administration PostgreSQL, MongoDB and MySQL
+  - Switched the version control to Git using Gitlab
+  - Adoption of the CI/CD philosophy with Jenkins
+  - Adoption of the usage of Docker for the development and production phase
+  - Monitoring with ELK and Grafana
+  - Adoption of an Agile methodology with Scrum
+
+- Role:     Java Developer
+  Entity:   Better Consultants
+  Started:  September 2015
+  Stopped:  October 2016
+  Location: Barcelona, Spain
+  Details:
+  - Developer in different projects for Andbank and Java consultant for a new project in Banc Sabadell.
+  - "Tech used: Java, HTML, CSS, JavaScript, Struts2, Spring, Hibernate & SubVersion"
+
+- Role:     Java Developer
+  Entity:   Altran España
+  Started:  March 2015
+  Stopped:  September 2016
+  Location: Barcelona, Spain
+  Details:
+  - Java Developer in the GIS project team in TMB.
+  - "Tech used: Java, Spring, Hibernate, PostgreSQL & SubVersion"
+
+- Role:     Java Developer
+  Entity:   Better Consultants
+  Started:  March 2014
+  Stopped:  March 2015
+  Location: Barcelona, Spain
+  Details:
+  - Java Developer in two projects for the Ajuntament de Barcelona, developing new modules and maintaining the current ones.
+  - Developer in two new projects for Andbank.
+  - "Tech used: Java, HTML, CSS, JavaScript, Struts2, Spring, Hibernate & SubVersion"
+
+- Role:     PHP Developer
+  Entity:   Clickart
+  Started:  September 2013
+  Stopped:  February 2014
+  Location: Barcelona, Spain
+  Details:
+  - Developer in the Clickedu platform team. It is a modular and versatile software management, oriented to the real needs of everyday life and coverage for different educational and institutional requirements as well as for students and families.
+  - "Tech used: PHP, MySQL, AJAX, HTML, CSS, JavaScript, jQuery & SubVersion"
+
+- Role:     Java Developer
+  Entity:   Aplicaciones en Informática Avanzada
+  Started:  April 2013
+  Stopped:  September 2013
+  Location: Sant Cugat del Vallés, Spain
+  Details:
+  - Java Developer in practices within the Banking and Insurance Department implementing a new module for the Prevention of Money Laundering and Financing of Terrorism.
+  - "Tech used: Java, HTML, CSS, JavaScript, Struts2, Spring, Hibernate & SubVersion"
+
+- Role:    Intern as Multimedia Content Manager and PHP Developer
+  Entity:  Invertred
+  Started: June 2012
+  Stopped: August 2012
+  Location: Barcelona, Spain
+  Details:
+  - Video edition with Final Cut (retouching images, making trailers, adding watermark)
+  - Management of a company blog (reviewing news, correction of the content)
+  - Moderator of a public forum (administrator of users, reviewing posts and channels)
+  - Programming tasks in PHP helping the development team
+
+- Role:    Intern as DBA and PHP Developer
+  Entity:  Invertred
+  Started: June 2011
+  Stopped: August 2011
+  Location: Barcelona, Spain
+  Details:
+  - Development of small crawlers in PHP to obtain data about recipes, processing the content including corresponding translations and management of the database in MySQL for a new mobile application.
+
+Projects:
+- "Collectus: the tool to manage your multiple collections [php, javascript, mySql]"
+- Tournaments generator (POC) [go, python, flutter, postgreSQL]
+
+Education:
+- Ingeniero Superior en Informática, Computer Engineering, Universitat Autonoma de Barcelona, 2008-2013
+
+Languages:
+- Spanish (native)
+- Catalan (native)
+- English (spoken and written)
+
+Keywords: [Go (golang), Go Templates, Linux, Ubuntu, Debian, Kubernetes (k8s), 
+Containers (Docker), Microservices, Event-Driven Architecture, Domain-Driven Design, 
+Command Line (CLI), HTML, CSS, JavaScript, SQL, PostgreSQL, MySQL, UML, YAML, JSON, XML, 
+Markdown, API, RPC, BFF, REST, gRPC, ProtoBuf, Terraform, CI/CD, GH Actions, Jenkins, 
+curl, Oauth2, Auth0, Vim/Vi, VSCode, Agile, Scrum, Kanban, Project Manager, Team Lead, 
+Mentoring, Coaching, Git, GitHub, GitLab, AWS, GCP, Slack, Jira, Confluence]

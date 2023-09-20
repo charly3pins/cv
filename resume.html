@@ -1,0 +1,535 @@
+
+<!doctype html>
+<html lang='en-US'>
+<head>
+    <title>Carles Fusté | Software Engineer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    @font-face {
+      font-family: SpyAgency;
+      src: url('spyagencyv3.ttf');
+    }
+
+    * {
+      text-rendering: optimizeLegibility;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --bgcolor: #222;
+      --fgcolor: #eee;
+      --boardfg: white;
+      --boardbg: black;
+      --high:    #ccc;
+      --medhigh: #aaa;
+      --lowhigh: #888;
+      --highlow: #666;
+      --medlow:  #555;
+      --low:     #444;
+      --lowlow:  #333;
+      --font: 'Fira Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Droid Sans", "Helvetica Neue", sans-serif;
+      font-family: var(--font);
+      background: var(--bgcolor);
+      color: var(--fgcolor);
+      text-rendering: optimizeLegibility;
+    }
+
+    main {
+      max-width: 40rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    ul {
+      margin-left: .6rem;
+    }
+
+    h2 {
+      font-weight: 800;
+      font-variant: small-caps;
+      font-size: 2rem;
+      line-height: .2rem;
+    }
+
+    #name {
+      text-shadow: 0 0 .3rem #ddd;
+      font-weight: 900;
+      font-size: 2em;
+    }
+
+    a {
+      color: var(--fgcolor);
+      border-bottom: dotted 2px var(--highlow);
+      text-decoration: none;
+    }
+
+    a[href^="http"] {
+      text-decoration: none;
+      color: var(--high);
+      border: none;
+    } 
+
+    a[href^="http"]:not(.nodecor)::after {
+      content: '»';
+      color: var(--low);
+    } 
+
+    a[href^="http"]:not(.nodecor)::before {
+      content: '«';
+      color: var(--low);
+    } 
+
+    a:hover, .homelink:hover, .nav-link:hover {
+      color: var(--medhigh);
+      font-style: normal;
+    }
+
+    a.nav-link {
+      color: var(--medlow);
+      border: none;
+    }
+
+    @media print {
+      * {
+        color:var(--boardbg);
+      }
+      @page {
+          size: portrait;
+          orphans: 5;
+          widows: 5;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <style>
+  #name {
+    text-shadow: 0 0 .2rem #ddd;
+    font-weight: 900;
+    font-size: 3rem;
+    font-family: SpyAgency, var(--font);
+    margin-bottom: 0;
+  }
+  #role {
+    font-size:1.22rem;
+    font-weight: 900;
+    font-variant: small-caps;
+    margin-top: 0;
+  }
+  #about {
+    display: grid;
+    grid-template-areas: "name" "role " "contact";
+  }
+  #contact {
+    font-size:1.22rem;
+  }
+</style>
+
+<div id=about>
+  <h1 id=name style='grid-area: name'>Carles Fusté</h1>
+  <div id=role style='grid-area: role'>Software Engineer</div>
+  <div id=contact style='grid-area: contact'><a href="mailto:hello@charly3pins.dev">hello@charly3pins.dev</a> • <a href="https://charly3pins.dev/">https://charly3pins.dev/</a></div>
+</div>
+
+    <style></style>
+<p id=mission>Enjoying being in the ever-evolving world of technology, displaying boundless enthusiasm for exploring new innovations and emerging trends. Continuously learning, adapting, and coding, becoming a valuable asset on any team.</p>
+
+    <br>
+    <div id=skills>
+    <h2>Skills</h2>
+    <ul>
+    <li>Software Engineering</li>
+    <li>Software Design and Development</li>
+    <li>API Design and Development</li>
+    <li>Distributed Systems</li>
+    <li>(Micro)services Patterns</li>
+    <li>Domain-Driven Design</li>
+    <li>Event-Driven Patterns</li>
+    <li>Test Driven Development Practices</li>
+    <li>DevOps philosophy</li>
+    <li>Continuous Integration and Continous Delivery (CI/CD)</li>
+    <li>Tech Leadership and Team Mentoring</li>
+    <li>Writing and Publication</li>
+    </ul>
+</div>
+
+    <br>
+    <style>
+.employer {
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+.employer .role {
+  display: flex;
+  justify-content: space-between;
+}
+.employer .role .dates {
+  font-size: .85rem;
+  color: #777;
+}
+</style>
+
+<div id=experience>
+<h2>Experience</h2>
+
+<div class=employer>
+  <div class=role>
+    <div><strong>VP of Engineering</strong></div>
+    <div class=dates>June 2023 - Present</div>
+  </div>
+  <div class=entity>Bankable <span class=loc>(Remote, Spain)</span></div>
+</div>
+
+<ul class=deets>
+
+</ul>
+
+</div>
+
+<div class=employer>
+  <div class=role>
+    <div><strong>Engineering Director</strong></div>
+    <div class=dates>April 2022 - Present</div>
+  </div>
+  <div class=entity>AREX Markets <span class=loc>(Remote, Spain)</span></div>
+</div>
+
+<ul class=deets>
+
+  <li class=deet>(Acquired by Bankable)</li>
+
+  <li class=deet>Responsible for the Engineering Strategy</li>
+
+  <li class=deet>Budget planning and management for the Engineering Organization</li>
+
+  <li class=deet>Lead the Solution Architecture</li>
+
+  <li class=deet>Set frameworks and playbooks for the organization to standardize their engineering practices</li>
+
+  <li class=deet>Responsible for overseeing the design, development, and maintenance of the cloud platform that supports our products</li>
+
+  <li class=deet>Coaching and mentoring technical leaders and engineers of the organization, helping them to set goals for career growth based on OKRs and CFR</li>
+
+  <li class=deet>Designed and implemented an Engineering Ladder with 2 tracks: Individual Contributor and Engineering Manager</li>
+
+  <li class=deet>Designed and Implemented the Hiring Process for Engineering</li>
+
+  <li class=deet>Partner with Product to align roadmaps, establish OKRs and resourcing recommendations</li>
+
+  <li class=deet>Accountable for the delivery of features and quality of the implemented solutions</li>
+
+</ul>
+
+</div>
+
+<div class=employer>
+  <div class=role>
+    <div><strong>Software Engineer (Tech Lead)</strong></div>
+    <div class=dates>March 2021 - April 2022</div>
+  </div>
+  <div class=entity>AREX Markets <span class=loc>(Remote, Spain)</span></div>
+</div>
+
+<ul class=deets>
+
+  <li class=deet>Tech Lead for the Financial Services squad</li>
+
+  <li class=deet>In charge of the payments, money flow and the ledger of the company</li>
+
+  <li class=deet>Responsible for the Application Architecture strategy and execution</li>
+
+  <li class=deet>Lead by example</li>
+
+  <li class=deet>Collaborate with the team to identify and fix technical problems</li>
+
+  <li class=deet>Analyze users' needs with the Product Manager and find solutions to serve them</li>
+
+  <li class=deet>Check that the software accomplishes the standards of the company</li>
+
+  <li class=deet>Identify areas of improvement for the product</li>
+
+  <li class=deet>Hire and train new members</li>
+
+  <li class=deet>Delegate work and assignments to team members</li>
+
+</ul>
+
+</div>
+
+<div class=employer>
+  <div class=role>
+    <div><strong>Software Engineer</strong></div>
+    <div class=dates>November 2018 - March 2021</div>
+  </div>
+  <div class=entity>AREX Markets <span class=loc>(Barcelona, Spain)</span></div>
+</div>
+
+<ul class=deets>
+
+  <li class=deet>Research and implementation of a common architecture in the existent microservices in Go</li>
+
+  <li class=deet>Development of the new microservices in Go</li>
+
+  <li class=deet>Uniform the communication between microservices using gRPC</li>
+
+  <li class=deet>Asynchronous messaging with PubSub</li>
+
+  <li class=deet>Database administration in PostgreSQL</li>
+
+  <li class=deet>CI/CD with Jenkins</li>
+
+  <li class=deet>Docker and Kubernetes for development and production</li>
+
+  <li class=deet>Introduction of new workflows and methodologies for the development team</li>
+
+  <li class=deet>Google Cloud Platform (GCP) and Amazon Web Services (AWS)</li>
+
+</ul>
+
+</div>
+
+<div class=employer>
+  <div class=role>
+    <div><strong>Software Engineer (Tech Lead)</strong></div>
+    <div class=dates>January 2018 - November 2018</div>
+  </div>
+  <div class=entity>iContainers <span class=loc>(Barcelona, Spain)</span></div>
+</div>
+
+<ul class=deets>
+
+  <li class=deet>Event-driven architecture (EDA) and microservices</li>
+
+  <li class=deet>Usage of Amazon Web Services (Lambda [Go & NodeJS], Step Functions, SQS, S3 and Cloudwatch)</li>
+
+  <li class=deet>Develop an API in Go with MongoDB and another one with MySQL to control the data of the system</li>
+
+  <li class=deet>Definition and development of a custom framework with MongoDB to define-build-deploy Step Functions for AWS</li>
+
+  <li class=deet>Definition and development of web applications using Go templates (admin panels, dynamic forms)</li>
+
+  <li class=deet>Migrate a few microservices working with SQS in PHP (Laravel) to Go</li>
+
+  <li class=deet>Security with Auth0</li>
+
+  <li class=deet>Usage of different tools: Gitlab, Jenkins, Docker, ELK, Grafana</li>
+
+  <li class=deet>Sprint planning with CTO, lead the stand-ups and retrospectives with all team</li>
+
+  <li class=deet>Ensure the codebase quality by doing Code Reviews</li>
+
+</ul>
+
+</div>
+
+<div class=employer>
+  <div class=role>
+    <div><strong>Software Engineer</strong></div>
+    <div class=dates>October 2016 - January 2018</div>
+  </div>
+  <div class=entity>iContainers <span class=loc>(Barcelona, Spain)</span></div>
+</div>
+
+<ul class=deets>
+
+  <li class=deet>Improvement of the REST API build in Java, Spring Security and Hibernate</li>
+
+  <li class=deet>Maintaining internal monolithic applications in different languages such as ASP .Net, JSP and JSF</li>
+
+  <li class=deet>Development of new CMS using jBake and later switched to Hugo</li>
+
+  <li class=deet>Database administration in PostgreSQL</li>
+
+  <li class=deet>Version control with SVN</li>
+
+  <li class=deet>Definition and development from scratch of a new highly scalable and flexible back-office system based on an event-driven architecture (EDA) and microservices</li>
+
+  <li class=deet>Development of a few panels with Angularjs and Go templates both with OAuth 2.0</li>
+
+  <li class=deet>Database administration PostgreSQL, MongoDB and MySQL</li>
+
+  <li class=deet>Switched the version control to Git using Gitlab</li>
+
+  <li class=deet>Adoption of the CI/CD philosophy with Jenkins</li>
+
+  <li class=deet>Adoption of the usage of Docker for the development and production phase</li>
+
+  <li class=deet>Monitoring with ELK and Grafana</li>
+
+  <li class=deet>Adoption of an Agile methodology with Scrum</li>
+
+</ul>
+
+</div>
+
+<div class=employer>
+  <div class=role>
+    <div><strong>Java Developer</strong></div>
+    <div class=dates>September 2015 - October 2016</div>
+  </div>
+  <div class=entity>Better Consultants <span class=loc>(Barcelona, Spain)</span></div>
+</div>
+
+<ul class=deets>
+
+  <li class=deet>Developer in different projects for Andbank and Java consultant for a new project in Banc Sabadell.</li>
+
+  <li class=deet>Tech used: Java, HTML, CSS, JavaScript, Struts2, Spring, Hibernate & SubVersion</li>
+
+</ul>
+
+</div>
+
+<div class=employer>
+  <div class=role>
+    <div><strong>Java Developer</strong></div>
+    <div class=dates>March 2015 - September 2016</div>
+  </div>
+  <div class=entity>Altran España <span class=loc>(Barcelona, Spain)</span></div>
+</div>
+
+<ul class=deets>
+
+  <li class=deet>Java Developer in the GIS project team in TMB.</li>
+
+  <li class=deet>Tech used: Java, Spring, Hibernate, PostgreSQL & SubVersion</li>
+
+</ul>
+
+</div>
+
+<div class=employer>
+  <div class=role>
+    <div><strong>Java Developer</strong></div>
+    <div class=dates>March 2014 - March 2015</div>
+  </div>
+  <div class=entity>Better Consultants <span class=loc>(Barcelona, Spain)</span></div>
+</div>
+
+<ul class=deets>
+
+  <li class=deet>Java Developer in two projects for the Ajuntament de Barcelona, developing new modules and maintaining the current ones.</li>
+
+  <li class=deet>Developer in two new projects for Andbank.</li>
+
+  <li class=deet>Tech used: Java, HTML, CSS, JavaScript, Struts2, Spring, Hibernate & SubVersion</li>
+
+</ul>
+
+</div>
+
+<div class=employer>
+  <div class=role>
+    <div><strong>PHP Developer</strong></div>
+    <div class=dates>September 2013 - February 2014</div>
+  </div>
+  <div class=entity>Clickart <span class=loc>(Barcelona, Spain)</span></div>
+</div>
+
+<ul class=deets>
+
+  <li class=deet>Developer in the Clickedu platform team. It is a modular and versatile software management, oriented to the real needs of everyday life and coverage for different educational and institutional requirements as well as for students and families.</li>
+
+  <li class=deet>Tech used: PHP, MySQL, AJAX, HTML, CSS, JavaScript, jQuery & SubVersion</li>
+
+</ul>
+
+</div>
+
+<div class=employer>
+  <div class=role>
+    <div><strong>Java Developer</strong></div>
+    <div class=dates>April 2013 - September 2013</div>
+  </div>
+  <div class=entity>Aplicaciones en Informática Avanzada <span class=loc>(Sant Cugat del Vallés, Spain)</span></div>
+</div>
+
+<ul class=deets>
+
+  <li class=deet>Java Developer in practices within the Banking and Insurance Department implementing a new module for the Prevention of Money Laundering and Financing of Terrorism.</li>
+
+  <li class=deet>Tech used: Java, HTML, CSS, JavaScript, Struts2, Spring, Hibernate & SubVersion</li>
+
+</ul>
+
+</div>
+
+<div class=employer>
+  <div class=role>
+    <div><strong>Intern as Multimedia Content Manager and PHP Developer</strong></div>
+    <div class=dates>June 2012 - August 2012</div>
+  </div>
+  <div class=entity>Invertred <span class=loc>(Barcelona, Spain)</span></div>
+</div>
+
+<ul class=deets>
+
+  <li class=deet>Video edition with Final Cut (retouching images, making trailers, adding watermark)</li>
+
+  <li class=deet>Management of a company blog (reviewing news, correction of the content)</li>
+
+  <li class=deet>Moderator of a public forum (administrator of users, reviewing posts and channels)</li>
+
+  <li class=deet>Programming tasks in PHP helping the development team</li>
+
+</ul>
+
+</div>
+
+<div class=employer>
+  <div class=role>
+    <div><strong>Intern as DBA and PHP Developer</strong></div>
+    <div class=dates>June 2011 - August 2011</div>
+  </div>
+  <div class=entity>Invertred <span class=loc>(Barcelona, Spain)</span></div>
+</div>
+
+<ul class=deets>
+
+  <li class=deet>Development of small crawlers in PHP to obtain data about recipes, processing the content including corresponding translations and management of the database in MySQL for a new mobile application.</li>
+
+</ul>
+
+</div>
+
+
+    <br>
+    <div id=projects>
+    <h2>Projects</h2>
+    <ul>
+    <li>Collectus: the tool to manage your multiple collections [php, javascript, mySql]</li>
+    <li>Tournaments generator (POC) [go, python, flutter, postgreSQL]</li>
+    </ul>
+</div>
+    <br>
+    <div id=education>
+    <h2>Education</h2>
+    <ul>
+    <li>Ingeniero Superior en Informática, Computer Engineering, Universitat Autonoma de Barcelona, 2008-2013</li>
+    </ul>
+</div>
+
+    <br>
+    <style>
+  #keywords {
+    padding-left: 2rem;
+  }
+</style>
+<h2>Keywords</h2>
+<div id=keywords>Go (golang) • Go Templates • Linux • Ubuntu • Debian • Kubernetes (k8s) • Containers (Docker) • Microservices • Event-Driven Architecture • Domain-Driven Design • Command Line (CLI) • HTML • CSS • JavaScript • SQL • PostgreSQL • MySQL • UML • YAML • JSON • XML • Markdown • API • RPC • BFF • REST • gRPC • ProtoBuf • Terraform • CI/CD • GH Actions • Jenkins • curl • Oauth2 • Auth0 • Vim/Vi • VSCode • Agile • Scrum • Kanban • Project Manager • Team Lead • Mentoring • Coaching • Git • GitHub • GitLab • AWS • GCP • Slack • Jira • Confluence</div>
+
+    <br>
+    <div id=languages>
+    <h2>Languages</h2>
+    <ul>
+    <li>Spanish (native)</li>
+    <li>Catalan (native)</li>
+    <li>English (spoken and written)</li>
+    </ul>
+</div>
+
+  </main>
+</body>
+</html>
