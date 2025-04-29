@@ -1,13 +1,12 @@
-Name:     Carles Fusté
-Role:     Software Engineer
+Name:     Carles Fusté Bertran
+Role:     Chief Technology Officer 
 Email:    hello@charly3pins.dev
 Web:      https://charly3pins.dev/
 Location: Barcelona, Spain
 
 Mission:
-  Enjoying being in the ever-evolving world of technology, displaying boundless enthusiasm 
-  for exploring new innovations and emerging trends. 
-  Continuously learning, adapting, and coding, becoming a valuable asset on any team.
+ As CTO, I bring a hands-on engineering mindset and a strategic vision to drive impactful change. I’m passionate about solving complex problems and aligning technology with business objectives to deliver measurable results.
+ I have a product oriented mindset and experience on building high-performing teams, mentoring talent, and fostering environments where innovation thrives.
 
 Skills:
 - Software Engineering
@@ -24,11 +23,22 @@ Skills:
 - Writing and Publication
 
 Experience:
+- Role:     Chief Technology Officer 
+  Entity:   Bankable
+  Started:  November 2024 
+  Location: Remote, Spain
+  Details:
+
 - Role:     VP of Engineering
   Entity:   Bankable
   Started:  June 2023
+  Stopped:  November 2024
   Location: Remote, Spain
   Details:
+  - Led agile engineering teams to deliver cutting-edge embedded finance solutions, aligning technology with business objectives and ensuring exceptional user experiences. I was responsible for scaling our engineering capacity, defining platform architecture, and upholding the highest security and compliance standards.
+  - A key part of my role involved leading the transition and integration of technology teams, systems, and processes following our acquisition. In the absence of a VP of Technology or CTO at the acquiring company, I took charge of harmonizing engineering practices, fostering collaboration, and ensuring continuity across both organizations.
+  - I built and nurtured a world-class engineering culture focused on psychological safety, inclusivity, and technical excellence. My responsibilities included recruiting and mentoring top talent, driving transformational data strategies, and streamlining delivery processes to achieve measurable outcomes for the business and our clients.
+
 
 - Role:     Engineering Director
   Entity:   AREX Markets
